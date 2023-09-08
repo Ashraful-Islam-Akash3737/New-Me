@@ -54,3 +54,16 @@ h5 {
     border-radius: 5px;
     padding: 5px 10px;
 }
+.person{
+    height: 500px;
+    background-image: url("../images/person.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:100px 862px 10px 200px  ;
+}
+.about-person{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 100px 450px 10px 862px;
+}
