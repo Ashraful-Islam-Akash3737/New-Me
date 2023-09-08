@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-picture1 {
+    background-image: url("../images/banner/banner1.png");
+    background-size: cover;
+    width: 100%;
+    height: 808px;
+    flex-shrink: 0;
+}
+
+.banner-content {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+.banner-content {
+    width: 30%;
+    margin: 216px 230px 0px 845px;
+}
+
+h1 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h5 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn1 {
+    align-self: self-end;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: orange;
+    border: transparent;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
